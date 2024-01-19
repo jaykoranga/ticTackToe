@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+   
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Salsa', cursive;
+    
+}
+nav{
+    display: flex;
+    height: 6vh;
+    width: 100vw;
+    background-color: rgb(128, 160, 159);
+    justify-content: flex-start;
+    gap: 10vw;
+    align-items: center;
+    padding: 0.5vw;
+    
+}
+.container{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(125, 131, 112);
+    display: flex;
+    justify-content: center;
+    
+}
+.game-box{
+    width: 80vw;
+    height: 90vh;
+    background-color: rgb(125, 131, 112);
+    margin: 1vh;
+    padding: 2%;
+    display: flex;
+    gap: 3vw;
+}
+.grid-block{
+    background-color: black;
+    width: 50%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    grid-template-rows: repeat(3,33.33%);
+    border-radius: 2vh;
+    
+}
+.blocks{
+    background-color: rgb(152, 148, 148);
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.result-block{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(152, 148, 148);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly ;
+    border-radius: 2vh;
+}
+.text{
+    font-size: 20vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.result-block img{
+    width: 50%;
+    align-self: center;
+    height: 50%;
+    border-radius: 50%;
+    position:relative;
+    display: none;
+}
+#reset{
+    width: 20%;
+    height:20%;
+    font-family: 'Salsa', cursive;
+    border-radius: 20%;
+    border: 1px solid black;
+    align-self: center;
+    background-color: rgb(131, 125, 125);
+    
+}
+.block1{
+   border-top: none;
+   border-left: none;
+}
+.block2{
+     border-top: 0px;
+   
+}
+
+.block3{
+ border-top: none;
+   border-right: none;
+}
+
+.block4{
+ 
+   border-left: none;
+}
+
+.block5{
+ 
+}
+
+.block6{
+ 
+   border-right: none;
+}
+
+.block7{
+ border-bottom: none;
+   border-left: none;
+}
+
+.block8{
+ border-bottom: none;
+   
+}
+
+.block9{
+ border-bottom: none;
+   border-right: none;
+}
+h1{
+    position: relative;
+    left: 1vw;
+}

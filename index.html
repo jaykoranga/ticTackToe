@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="#" style="text-decoration: none; color: inherit;"><li>Tic-Tack-Toe</li></a>
+        </ul>
+        <ul>    
+            <a href="#" style="text-decoration: none; color: inherit"><li>Contact</li></a> 
+        </ul> 
+        <ul>  
+           <a href="#" style="text-decoration: none; color: inherit"> <li>About</li></a>
+        </ul>
+    </nav>
+    <audio  id="mysound" src="/tic-tack-toe/shooting-sound-fx-159024.mp3"></audio>
+    <audio  id="tada" src="/tic-tack-toe/tada-fanfare-a-6313.mp3"></audio>
+    <div class="container">
+        <div class="game-box">
+            <div class="grid-block">
+                <div class="blocks block1"><span class="text"></span></div>
+                <div class="blocks block2 "><span class="text"></span></div>
+                <div class="blocks block3 "><span class="text"></span></div>
+                <div class="blocks block4 "><span class="text"></span></div>
+                <div class="blocks block5"><span class="text"></span></div>
+                <div class="blocks block6"><span class="text"></span></div>
+                <div class="blocks block7"><span class="text"></span></div>
+                <div class="blocks block8"><span class="text"></span></div>
+                <div class="blocks block9"><span class="text"></span></div>
+            </div>
+            <div class="result-block">
+                <h1>TURN:<span class="turn"></span></h1>
+                <h1 id="h1-result">Result :<span class="result"></span></h1>
+                <button id="reset">RESET</button>
+                <img id="myimg" src="/tic-tack-toe/win-gif.gif" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
